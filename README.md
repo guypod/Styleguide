@@ -81,7 +81,12 @@ gulp.task('start-styleguide', function () {
 });
 ```
 
-Function does not take any arguments and returns server instance.
+Function can take arguments and returns server instance.
+You can pass folder name to function (default is 'styleguide'):
+
+```
+styleguide.startServer({styleguidePath: 'styleguide-folder-name'});
+```
 
 
 ###Accessing your styleguide
