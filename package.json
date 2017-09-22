@@ -46,7 +46,7 @@
     "lodash": "4.0.0",
     "mkdirp": "0.5.1",
     "q": "1.4.1",
-    "request": "2.68.0"
+    "request": "2.74.0"
   },
   "devDependencies": {
     "snyk": "^1.14.1",
