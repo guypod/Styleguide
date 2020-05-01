@@ -46,13 +46,16 @@
     "lodash": "4.0.0",
     "mkdirp": "0.5.1",
     "q": "1.4.1",
-    "request": "2.68.0"
+    "request": "2.68.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
-    "snyk": "^1.14.1",
     "morgan": "1.5.1"
   },
   "scripts": {
-    "test": "snyk test"
-  }
+    "test": "snyk test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
